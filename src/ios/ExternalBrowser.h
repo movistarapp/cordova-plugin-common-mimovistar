@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface MovistarApp : CDVPlugin {
+@interface ExternalBrowser : CDVPlugin {
   // Member variables go here.
 }
 
