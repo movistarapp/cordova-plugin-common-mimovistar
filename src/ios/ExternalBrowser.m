@@ -1,10 +1,10 @@
 
-#import "MovistarApp.h"
+#import "ExternalBrowser.h"
 
-@implementation MovistarApp
+@implementation ExternalBrowser
 
 - (void)pluginInitialize {
-    NSLog(@"Starting MovistarApp plugin");
+    NSLog(@"Starting ExternalBrowser plugin");
 }
 
 - (void)showExternalBrowser:(CDVInvokedUrlCommand*)command

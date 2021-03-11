@@ -1,6 +1,6 @@
 var exec = require('cordova/exec');
 
-var PLUGIN_NAME = 'MovistarApp';
+var PLUGIN_NAME = 'ExternalBrowser';
 
 exports.showExternalBrowser = function (url) {
     return new Promise(function(resolve, reject) {

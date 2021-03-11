@@ -1,4 +1,4 @@
-package mi.movistar.peru;
+package com.external.browser;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -12,12 +12,12 @@ import android.net.Uri;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class MovistarApp extends CordovaPlugin {
+public class ExternalBrowser extends CordovaPlugin {
 
 
     @Override
     protected void pluginInitialize() {
-        Log.d("MovistarApp", "Starting Firebase Analytics plugin");
+        Log.d("ExternalBrowser", "Starting ExternalBrowser plugin");
     }
     
     @Override

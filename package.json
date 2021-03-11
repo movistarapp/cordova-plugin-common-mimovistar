@@ -1,17 +1,21 @@
 {
-  "name": "mi.movistar.peru",
-  "version": "1.0.0",
-  "description": "ddd",
-  "cordova": {
-    "id": "mi.movistar.peru",
-    "platforms": [
-      "android"
-    ]
-  },
-  "keywords": [
-    "ecosystem:cordova",
-    "cordova-android"
-  ],
-  "author": "edwin",
-  "license": "ISC"
-}
+    "name": "cordova-external-browser",
+    "version": "1.0.0",
+    "description": "open browser external",
+    "cordova": {
+      "id": "cordova-external-browser",
+      "platforms": [
+        "android",
+        "ios"
+      ]
+    },
+    "keywords": [
+      "ecosystem:cordova",
+      "cordova-android",
+      "cordova-ios"
+    ],
+    "author": "edwin cabrejos",
+    "license": "ISC"
+  }
+  
+  
