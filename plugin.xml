@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="mi.movistar.peru" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>MovistarApp</name>
+    <js-module name="MovistarApp" src="www/MovistarApp.js">
+        <clobbers target="window.plugins.MovistarApp" />
+    </js-module>
+    
+    <engines>
+        <engine name="cordova" version=">=9.0.0"/>
+        <engine name="cordova-android" version=">=8.0.0"/>
+        <engine name="cordova-ios" version=">=6.0.0"/>
+    </engines>
+
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="MovistarApp">
+                <param name="android-package" value="mi.movistar.peru.MovistarApp" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml" />
+        <source-file src="src/android/MovistarApp.java" target-dir="src/mi/movistar/peru/" />
+    </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="MovistarApp">
+                <param name="ios-package" value="MovistarApp" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/MovistarApp.h" />
+        <source-file src="src/ios/MovistarApp.m" />
+
+    </platform>
+</plugin>

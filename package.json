@@ -1,0 +1,17 @@
+{
+  "name": "mi.movistar.peru",
+  "version": "1.0.0",
+  "description": "ddd",
+  "cordova": {
+    "id": "mi.movistar.peru",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "edwin",
+  "license": "ISC"
+}
