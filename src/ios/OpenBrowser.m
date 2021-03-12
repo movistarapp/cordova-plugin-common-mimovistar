@@ -1,7 +1,7 @@
 
-#import "ExternalBrowser.h"
+#import "OpenBrowser.h"
 
-@implementation ExternalBrowser
+@implementation OpenBrowser
 
 - (void)pluginInitialize {
     NSLog(@"Starting ExternalBrowser plugin");

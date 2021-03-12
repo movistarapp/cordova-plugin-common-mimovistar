@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-external-browser" version="1.0.0"
+<plugin id="cordova-browser-open" version="1.0.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>ExternalBrowser</name>
-    <js-module name="ExternalBrowser" src="www/ExternalBrowser.js">
-        <clobbers target="window.plugins.ExternalBrowser" />
+    <name>OpenBrowser</name>
+    <js-module name="OpenBrowser" src="www/OpenBrowser.js">
+        <clobbers target="window.plugins.OpenBrowser" />
     </js-module>
     
     <engines>
@@ -15,23 +15,23 @@
 
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="ExternalBrowser">
-                <param name="android-package" value="com.external.browser.ExternalBrowser" />
+            <feature name="OpenBrowser">
+                <param name="android-package" value="com.open.browser.OpenBrowser" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/ExternalBrowser.java" target-dir="src/com/external/browser/" />
+        <source-file src="src/android/OpenBrowser.java" target-dir="src/com/open/browser/" />
     </platform>
 
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
-            <feature name="ExternalBrowser">
-                <param name="ios-package" value="ExternalBrowser" />
+            <feature name="OpenBrowser">
+                <param name="ios-package" value="OpenBrowser" />
             </feature>
         </config-file>
 
-        <header-file src="src/ios/ExternalBrowser.h" />
-        <source-file src="src/ios/ExternalBrowser.m" />
+        <header-file src="src/ios/OpenBrowser.h" />
+        <source-file src="src/ios/OpenBrowser.m" />
     </platform>
 
 </plugin>

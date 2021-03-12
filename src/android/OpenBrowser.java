@@ -1,4 +1,4 @@
-package com.external.browser;
+package com.open.browser;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -12,12 +12,12 @@ import android.net.Uri;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class ExternalBrowser extends CordovaPlugin {
+public class OpenBrowser extends CordovaPlugin {
 
 
     @Override
     protected void pluginInitialize() {
-        Log.d("ExternalBrowser", "Starting ExternalBrowser plugin");
+        Log.d("OpenBrowser", "Starting OpenBrowser plugin");
     }
     
     @Override

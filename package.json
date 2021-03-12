@@ -1,9 +1,9 @@
 {
-    "name": "cordova-external-browser",
+    "name": "cordova-browser-open",
     "version": "1.0.0",
     "description": "open browser external",
     "cordova": {
-      "id": "cordova-external-browser",
+      "id": "cordova-browser-open",
       "platforms": [
         "android",
         "ios"

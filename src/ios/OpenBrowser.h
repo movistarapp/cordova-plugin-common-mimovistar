@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface ExternalBrowser : CDVPlugin {
+@interface OpenBrowser : CDVPlugin {
   // Member variables go here.
 }
 
