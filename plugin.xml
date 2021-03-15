@@ -25,7 +25,7 @@
 
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
-            <feature name="MiMovistarPlugin">
+            <feature name="mimovistar">
                 <param name="ios-package" value="MiMovistarPlugin" />
             </feature>
         </config-file>
