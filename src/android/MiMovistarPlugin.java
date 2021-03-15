@@ -1,4 +1,4 @@
-package com.open.browser;
+package com.common.mimovistar;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -12,12 +12,12 @@ import android.net.Uri;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class OpenBrowser extends CordovaPlugin {
+public class MiMovistarPlugin extends CordovaPlugin {
 
 
     @Override
     protected void pluginInitialize() {
-        Log.d("OpenBrowser", "Starting OpenBrowser plugin");
+        Log.d("MiMovistarPlugin", "Starting MiMovistarPlugin plugin");
     }
     
     @Override

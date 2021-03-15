@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-browser-open" version="1.0.0"
+<plugin id="cordova-plugin-common-mimovistar" version="1.0.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>OpenBrowser</name>
-    <js-module name="OpenBrowser" src="www/OpenBrowser.js">
-        <clobbers target="window.plugins.OpenBrowser" />
+    <name>MiMovistarPlugin</name>
+    <js-module name="mimovistar" src="www/mimovistar.js">
+        <clobbers target="window.plugins.mimovistar" />
     </js-module>
     
     <engines>
@@ -15,23 +15,23 @@
 
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="OpenBrowser">
-                <param name="android-package" value="com.open.browser.OpenBrowser" />
+            <feature name="mimovistar">
+                <param name="android-package" value="com.common.mimovistar.MiMovistarPlugin" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/OpenBrowser.java" target-dir="src/com/open/browser/" />
+        <source-file src="src/android/MiMovistarPlugin.java" target-dir="src/com/common/mimovistar/" />
     </platform>
 
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
-            <feature name="OpenBrowser">
-                <param name="ios-package" value="OpenBrowser" />
+            <feature name="mimovistar">
+                <param name="ios-package" value="mimovistar" />
             </feature>
         </config-file>
 
-        <header-file src="src/ios/OpenBrowser.h" />
-        <source-file src="src/ios/OpenBrowser.m" />
+        <header-file src="src/ios/MiMovistarPlugin.h" />
+        <source-file src="src/ios/MiMovistarPlugin.m" />
     </platform>
 
 </plugin>

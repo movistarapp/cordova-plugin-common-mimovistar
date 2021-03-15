@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface OpenBrowser : CDVPlugin {
+@interface MiMovistarPlugin : CDVPlugin {
   // Member variables go here.
 }
 

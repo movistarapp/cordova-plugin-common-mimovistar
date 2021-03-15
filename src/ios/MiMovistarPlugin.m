@@ -1,7 +1,7 @@
 
-#import "OpenBrowser.h"
+#import "MiMovistarPlugin.h"
 
-@implementation OpenBrowser
+@implementation MiMovistarPlugin
 
 - (void)pluginInitialize {
     NSLog(@"Starting ExternalBrowser plugin");

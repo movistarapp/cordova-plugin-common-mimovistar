@@ -1,9 +1,9 @@
 {
-    "name": "cordova-browser-open",
+    "name": "cordova-plugin-common-mimovistar",
     "version": "1.0.0",
-    "description": "open browser external",
+    "description": "custom plugins for my movistar app",
     "cordova": {
-      "id": "cordova-browser-open",
+      "id": "cordova-plugin-common-mimovistar",
       "platforms": [
         "android",
         "ios"
@@ -15,7 +15,7 @@
       "cordova-ios"
     ],
     "author": "edwin cabrejos",
-    "license": "ISC"
+    "license": "MIT"
   }
   
   
